@@ -1,4 +1,5 @@
 # Sprint1_Tema5_Nivell1
+
 📄 Descripció - Enunciat de l'exercici
 
 Aquest projecte consisteix en la creació i gestió d'un sistema que permet administrar diferents tipus d'animals. Es treballa amb fitxers PHP, funcions i estructures bàsiques de programació orientada a objectes en PHP.
@@ -13,7 +14,9 @@ MySQL (opcional per a la persistència de dades)
 
 💼 Requisits
 
-PHP 8.0 o superior
+PHP v8.0 o superior
+
+MySQL (opcional)
 
 Un servidor local com XAMPP, WAMP o MAMP
 
@@ -31,9 +34,11 @@ Accedeix al directori del projecte:
 
 cd 3.1-Sistema-Gestio-Animals
 
-Copia els arxius al directori htdocs (XAMPP) o equivalent.
+Mou els fitxers al directori htdocs o equivalent.
 
-Assegura't que el servidor Apache estigui en funcionament.
+Configura la base de dades si s'utilitza MySQL.
+
+Inicia el servidor Apache.
 
 Obre el navegador i accedeix al projecte:
 
@@ -41,29 +46,27 @@ http://localhost/3.1-Sistema-Gestio-Animals
 
 ▶️ Execució
 
-Obre el navegador web i accedeix a l'URL del projecte.
+Configura els fitxers de base de dades si cal (per exemple, config.php).
 
-Segueix les funcionalitats proporcionades:
+Executa el programa accedint des del navegador.
 
-Afegeix nous animals.
+Utilitza les funcionalitats disponibles:
 
-Consulta la informació existent.
-
-Modifica o elimina animals.
+Crear, consultar i eliminar animals.
 
 🌐 Desplegament
 
-Prepara l'entorn de producció amb un servidor compatible amb PHP.
+Prepara l'entorn de producció.
 
-Puja els arxius al servidor mitjançant FTP o eines de desplegament.
+Puja els fitxers del projecte al servidor de producció mitjançant FTP.
 
-Configura la base de dades si s'utilitza MySQL.
+Configura la base de dades de producció si s'utilitza.
 
-Assegura't que el servidor Apache té els permisos necessaris.
+Verifica que l'accés al projecte funcioni correctament.
 
 🤝 Contribucions
 
-Les contribucions són benvingudes! Per favor, segueix els passos següents per contribuir:
+Les contribucions són benvingudes! Si vols contribuir, segueix els passos següents:
 
 Fes un fork del repositori.
 
@@ -79,11 +82,10 @@ Puja els canvis a la teva branca:
 
 git push origin feature/NovaFuncionalitat
 
-Obre un pull request.
+Fes un pull request.
 
 💡 Notes Addicionals
 
-El projecte està dissenyat per a estudiants de nivell bàsic-intermedi en PHP.
+Aquest projecte està pensat per a l'aprenentatge de PHP.
 
 Assegura't de mantenir un estil de codi net i estructurat.
-
