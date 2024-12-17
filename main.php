@@ -1,12 +1,15 @@
 <?php
+require_once 'Animal.php';
 require_once 'Gos.php';
 require_once 'Gat.php';
 
-echo "Gos fa: ";
-$gos = new Gos();
-$gos->makeSound();
 
-echo "Gat fa: ";
-$gat = new Gat();
+$animalGeneral = new Animal("Animal"); 
+$gos = new Gos("Perrete");                       
+$gat = new Gat("Gatete");                       
+
+
+$animalGeneral->makeSound();
+$gos->makeSound();
 $gat->makeSound();
 ?>

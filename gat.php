@@ -2,8 +2,9 @@
 require_once 'Animal.php';
 
 class Gat extends Animal {
+   
     public function makeSound() {
-        echo "Meu!\n";
+        echo "{$this->name} diu: Meu!\n";
     }
 }
 ?>
