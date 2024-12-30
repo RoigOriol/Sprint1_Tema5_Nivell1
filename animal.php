@@ -1,6 +1,6 @@
 <?php
 
-class Animal {
+abstract class Animal {
    
     protected $name;
 
@@ -8,8 +8,6 @@ class Animal {
         $this->name = $name;
     }
 
-    public function makeSound() {
-     
-    }
+    abstract function makeSound();
 }
 ?>
